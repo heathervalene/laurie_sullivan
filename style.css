@@ -21,6 +21,7 @@ margin: 0;
     height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
+      border-bottom: 10px solid #A9C7E2;
 }
 
 .mobile-hero {
