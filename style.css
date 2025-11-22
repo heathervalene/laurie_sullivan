@@ -73,6 +73,7 @@ margin: 0;
 h2 {
     color:  #3D464F;
     font-size: 35px;
+    text-transform: capitalize;
 }
 
 .body-cta {
@@ -94,6 +95,7 @@ h2 {
 li {
     font-size: 20px;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 
