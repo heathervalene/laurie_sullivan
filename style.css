@@ -1,0 +1,161 @@
+body {
+ font-family: "Lato", sans-serif;
+ margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Playfair Display", serif;
+margin: 0;
+}
+
+.inner {
+    margin:0 auto;
+    max-width: 1200px;
+    width: 90%;
+
+}
+
+.hero {
+    background: url(/images/hero.png);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mobile-hero {
+    display: none;
+}
+
+.mobile-hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+      border-bottom: 10px solid #A9C7E2;
+
+
+    
+}
+
+.hero-content {
+    width: 55%;
+    padding-top: 120px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 55px;
+    text-transform: capitalize;
+
+}
+
+.hero-content h3 {
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+.body-content {
+    background-color: #F6F5F2;
+    padding: 60px 0;
+}
+
+.body-content .inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+h2 {
+    color:  #3D464F;
+    font-size: 35px;
+}
+
+.body-cta {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cta-btn {
+ margin-top: 40px;
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+ align-items: center;
+
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    background:#CFA85F;
+    border: 2px solid #CFA85F;
+    color: #1A1A1A;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    transition:0.3s ease-in-out;
+
+}
+
+.btn:hover {
+    background-color: #F6F5F2;
+    color: #224A73;
+}
+
+
+footer {
+    background-color: #224A73;
+      border-top: 10px solid #A9C7E2;
+}
+
+footer .inner {
+    padding: 40px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+footer p, footer a {
+    color: #fff;
+    margin:0;
+    text-decoration: none;
+  
+}
+
+footer a:hover , footer a p:hover{
+    text-decoration: underline;
+    color: #A9C7E2;
+
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.icon img {
+    width: 20px;
+    height: auto;
+}
+
+.address, .phone, .email {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
