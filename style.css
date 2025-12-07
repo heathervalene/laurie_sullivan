@@ -30,7 +30,7 @@ p {
 
 .desktop-hero {
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
     right: 0;
 }
 
