@@ -31,6 +31,10 @@
        
     }
 
+    .desktop-hero {
+        display: none;
+    }
+
     .video-content {
         width: 100%;
         border-radius: 0px;

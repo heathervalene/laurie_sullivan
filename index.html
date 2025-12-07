@@ -8,13 +8,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
     <title>L Sullivan Law LLC</title>
     <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 </head>
 <body>
     <section class="hero">
         <div class="mobile-hero">
-            <img src="/images/mobile.png">
+            <img src="/images/image2.png">
+        </div>
+        <div class="desktop-hero">
+            <img src="/images/image2.png">
         </div>
         <div class="hero-content">
             <h1>L Sullivan Law LLC</h1>
@@ -32,7 +36,7 @@
         </div>
         <div class="video-overlay"></div>
         <div class="video-content">
-            <h3>Serving Boston, all of Massachusetts, and Real Estate needs in New Hampshire</h3>
+            <h3>Serving Metro Boston, Massachusetts, and New Hampshire</h3>
         </div>
         
     </section>
@@ -43,21 +47,50 @@
 <div class="content">
             <h2>Services</h2>
            
-                <ul>
-                    <li>Residential Closings</li>
-                    <li>Dedication, Wills and Testiments</li>
-                    <li>Title Review</li>
-                    <li>Purchase and Sale Agreement Drafting</li>
-                    <li>Refinance and Deed Work</li>
-                    <li>Seller Representation</li>
-                
-                </ul>
+                <div class="service-list">
+                    <div class="service-item">
+                        <div class="service-header">
+                         <h3>Real Estate</h3>
+                         <div class="service-icon">
+                            <img src="/images/arrow-down.png">
+                         </div>
+                         </div>
+                            <div class="service-content">
+                                <p>Real estate services for both commercial and residential properties—helping you find the perfect space that fits your needs. We're here to support you every step of the way</p>
+                            </div>
+                    </div>
+                       <div class="service-item">
+                        <div class="service-header">
+                         <h3>Estate Planning</h3>
+                         <div class="service-icon">
+                            <img src="/images/arrow-down.png">
+                         </div>
+                         </div>
+                            <div class="service-content">
+                                <p>Estate planning services, available both in person and via Zoom, assist clients in identifying their needs and achieving long-term objectives.</p>
+                            </div>
+                    </div>
+                       <div class="service-item">
+                        <div class="service-header">
+                         <h3>Civil Litigation</h3>
+                         <div class="service-icon">
+                            <img src="/images/arrow-down.png">
+                         </div>
+                         </div>
+                            <div class="service-content">
+                                <p>Civil litigation services include careful drafting of legal documents, motions, pleadings, briefs, and discovery requests, as well as presenting persuasive arguments on behalf of clients during bench and jury trials. This approach has led to a history of successful outcomes.</p>
+                            </div>
+                    </div>
+                </div>
             </div>
+                 <div class="body-cta">
+            <a href="https://form.typeform.com/to/pV6HcJBq?typeform-source=docs.google.com" class="btn" target="_blank">Get Your Free Quote Now</a>
+        </div>
                <div class="content">
             <h2>Why Work with me</h2>
          
                 <ul>
-                    <li>Trusted Massachusetts Attorney</li>
+                    <li>Trusted Massachusetts & New Hampshire Attorney</li>
                     <li>Fast Closings</li>
                     <li>Transparent Communication</li>
                     <li>Personalized Legal guidance</li>
@@ -65,8 +98,20 @@
             </div>
          
         </div>
-          <div class="body-cta">
-            <a href="https://form.typeform.com/to/pV6HcJBq?typeform-source=docs.google.com" class="btn" target="_blank">Get Your Free Quote Now</a>
+     
+    </section>
+    <section class="logos">
+        <div class="inner">
+            <div class="logo-item">
+                <img src="/images/image3.png">
+                </div>
+                <div class="logo-item">
+                <img src="/images/logo2.png">
+                </div>
+                <div class="logo-item">
+                <img src="/images/image6.png">
+                </div>
+            </div>
         </div>
     </section>
     <footer>
@@ -90,8 +135,27 @@
                 </div>
             <a href="mailto:laurie@lsullivanlaw.com">laurie@Lsullivanlaw.com</a>
             </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/p/L-Sullivan-Law-LLC-100092710035474/">
+                    <img src="/images/facebook.png">
+                </a>
+            </div>
         </div>
     </footer>
     
 </body>
 </html>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+
+    $(document).ready(function() {
+    $('.service-header').on('click', function() {
+        const item = $(this).closest('.service-item');
+        item.toggleClass('active');
+    });
+});
+
+</script>
