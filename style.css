@@ -302,7 +302,7 @@ footer h4 {
     height: auto;
 }
 
-.address, .phone, .email {
+.address, .phone, .email, .facebook {
     display: flex;
     align-items: center;
     gap:10px;
@@ -311,8 +311,4 @@ footer h4 {
 .phone {
     border:2px solid white;
     padding:7px 10px;
-}
-
-.facebook img:hover {
-    opacity: 0.8;
 }
